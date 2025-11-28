@@ -14,7 +14,6 @@ namespace Booking_an_Appointment_Dental_Clinic
 {
     public partial class Book_an_appointment2 : Form
     {
-        //رفع
         public Book_an_appointment2()
         {
             InitializeComponent();
