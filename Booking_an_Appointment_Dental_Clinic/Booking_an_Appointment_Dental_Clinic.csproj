@@ -76,12 +76,22 @@
     <Compile Include="FromLogin.Designer.cs">
       <DependentUpon>FromLogin.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202511291227312_InitialCreate.cs" />
+    <Compile Include="Migrations\202511291227312_InitialCreate.Designer.cs">
+      <DependentUpon>202511291227312_InitialCreate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Models\DbContext.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Resources\Appointment.cs" />
-    <Compile Include="Resources\Booking.cs" />
-    <Compile Include="Resources\Patient.cs" />
-    <Compile Include="Resources\User.cs" />
+    <Compile Include="Models\Appointment.cs" />
+    <Compile Include="Models\Patient.cs" />
+    <Compile Include="Models\User.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
     <Compile Include="show.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -90,6 +100,7 @@
     </Compile>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="Form2.resx">
       <DependentUpon>Form2.cs</DependentUpon>
@@ -97,16 +108,14 @@
     <EmbeddedResource Include="FromLogin.resx">
       <DependentUpon>FromLogin.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202511291227312_InitialCreate.resx">
+      <DependentUpon>202511291227312_InitialCreate.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Resources.resx</DependentUpon>
-      <DesignTime>True</DesignTime>
-    </Compile>
     <EmbeddedResource Include="show.resx">
       <DependentUpon>show.cs</DependentUpon>
     </EmbeddedResource>
@@ -122,11 +131,25 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\IMG-20251120-WA00061.jpg" />
-    <None Include="Resources\IMG-20251120-WA0006.jpg" />
+    <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4d089091f6ac56e86ceaaa82cd1b6d24.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\366ebb6f0af60a22227ed5a5f9e3e926.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\368bff588f29c76b9334aad6e6e7a3a9.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1065f3d3cf08e3281e456a52df3bd16d.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IMG-20251130-WA0060.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

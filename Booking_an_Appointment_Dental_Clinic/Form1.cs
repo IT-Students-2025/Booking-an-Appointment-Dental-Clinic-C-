@@ -28,19 +28,15 @@ namespace Booking_an_Appointment_Dental_Clinic
         private void button1_Click(object sender, EventArgs e)
         {
 
-            // 1. إنشاء مثيل (Instance) من واجهة تسجيل الحجز (الواجهة الثانية)
-            // * تأكد من تغيير "FormBookAppointment" إلى الاسم الحقيقي لواجهة الحجز لديك *
+          
             Book_an_appointment2 appointmentForm = new Book_an_appointment2();
 
-            // 2. إظهار واجهة تسجيل الحجز
             appointmentForm.Show();
 
-            // 3. إخفاء الواجهة الحالية (واجهة الشعار)
-            // هذا يسمح للمستخدم بالعودة إليها لاحقًا إذا لزم الأمر، لكنها لن تظهر في شريط المهام.
+
             this.Hide();
 
-            // ملاحظة: إذا كنت تفضل إغلاق الواجهة الأولى تمامًا بدلاً من إخفائها، استخدم:
-            // this.Close();
+
         
 
 
@@ -50,19 +46,14 @@ namespace Booking_an_Appointment_Dental_Clinic
         {
 
 
-            // 1. إنشاء مثيل (Instance) من واجهة تسجيل الحجز (الواجهة الثانية)
-            // * تأكد من تغيير "FormBookAppointment" إلى الاسم الحقيقي لواجهة الحجز لديك *
             Book_an_appointment2 appointmentForm = new Book_an_appointment2();
 
-            // 2. إظهار واجهة تسجيل الحجز
+
             appointmentForm.Show();
 
-            // 3. إخفاء الواجهة الحالية (واجهة الشعار)
-            // هذا يسمح للمستخدم بالعودة إليها لاحقًا إذا لزم الأمر، لكنها لن تظهر في شريط المهام.
+
             this.Hide();
 
-            // ملاحظة: إذا كنت تفضل إغلاق الواجهة الأولى تمامًا بدلاً من إخفائها، استخدم:
-            // this.Close();
 
 
         }
@@ -71,15 +62,13 @@ namespace Booking_an_Appointment_Dental_Clinic
         {
 
 
-            // 1. إنشاء مثيل (Instance) من Form1 (واجهة العرض/الشعار)
-            // هذا يفتح الواجهة الأولى
+         
             FromLogin formMain = new FromLogin();
 
-            // 2. إظهار Form1
+
             formMain.Show();
 
-            // 3. إغلاق الواجهة الحالية (Form2 - واجهة الحجز)
-            // نستخدم Close بدلاً من Hide لإنهاء عمل Form2 بشكل كامل
+
             this.Close();
 
 

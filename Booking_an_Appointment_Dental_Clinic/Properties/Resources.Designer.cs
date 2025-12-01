@@ -63,9 +63,9 @@ namespace Booking_an_Appointment_Dental_Clinic.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap IMG_20251120_WA0006 {
+        internal static System.Drawing.Bitmap _1065f3d3cf08e3281e456a52df3bd16d {
             get {
-                object obj = ResourceManager.GetObject("IMG-20251120-WA0006", resourceCulture);
+                object obj = ResourceManager.GetObject("1065f3d3cf08e3281e456a52df3bd16d", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -73,9 +73,9 @@ namespace Booking_an_Appointment_Dental_Clinic.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap IMG_20251120_WA00061 {
+        internal static System.Drawing.Bitmap _366ebb6f0af60a22227ed5a5f9e3e926 {
             get {
-                object obj = ResourceManager.GetObject("IMG-20251120-WA00061", resourceCulture);
+                object obj = ResourceManager.GetObject("366ebb6f0af60a22227ed5a5f9e3e926", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -83,9 +83,29 @@ namespace Booking_an_Appointment_Dental_Clinic.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap IMG_20251120_WA00062 {
+        internal static System.Drawing.Bitmap _368bff588f29c76b9334aad6e6e7a3a9 {
             get {
-                object obj = ResourceManager.GetObject("IMG-20251120-WA00062", resourceCulture);
+                object obj = ResourceManager.GetObject("368bff588f29c76b9334aad6e6e7a3a9", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _4d089091f6ac56e86ceaaa82cd1b6d24 {
+            get {
+                object obj = ResourceManager.GetObject("4d089091f6ac56e86ceaaa82cd1b6d24", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap IMG_20251130_WA0060 {
+            get {
+                object obj = ResourceManager.GetObject("IMG-20251130-WA0060", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
